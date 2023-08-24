@@ -210,10 +210,10 @@ def helpsession():
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
          {green}Sessions Commands{reset}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[{red}+{reset}] help or ?                   👉 Show Help Menu
-[{red}+{reset}] exit or x                   👉 Terminates the current session
-[{red}+{reset}] persist or pt               👉 Use a persistence technique
-[{red}+{reset}] background or bg            👉 Backgrounds the current session
+[{red}+{reset}] help or ?                   ~> Show Help Menu
+[{red}+{reset}] exit or x                   ~> Terminates the current session
+[{red}+{reset}] persist or pt               ~> Use a persistence technique
+[{red}+{reset}] background or bg            ~> Backgrounds the current session
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ''')  
 
@@ -222,13 +222,13 @@ def help():
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                        
           {green}Menu Commands{reset}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[{red}+{reset}] help or ?                   👉 Show Help Menu
-[{red}+{reset}] exit or x                   👉 Exits C2
-[{red}+{reset}] listener or lt              👉 Generate a New Listener
-[{red}+{reset}] lin                         👉 Generate a Linux Payload
-[{red}+{reset}] win                         👉 Generate a Windows Payload
-[{red}+{reset}] sessions -l                 👉 List Sessions
-[{red}+{reset}] sessions -i <id>            👉 Enter a New Session
+[{red}+{reset}] help or ?                   ~> Show Help Menu
+[{red}+{reset}] exit or x                   ~> Exits C2
+[{red}+{reset}] listener or lt              ~> Generate a New Listener
+[{red}+{reset}] lin                         ~> Generate a Linux Payload
+[{red}+{reset}] win                         ~> Generate a Windows Payload
+[{red}+{reset}] sessions -l                 ~> List Sessions
+[{red}+{reset}] sessions -i <id>            ~> Enter a New Session
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ''')
 
@@ -245,7 +245,7 @@ if __name__ == '__main__':
                 help()
             if command == 'listener' or command == 'lt':
                 host_ip = input(f'[{green}+{reset}] IP to listen on: ')
-                host_port = input(f'[{green}+{reset}] Port to listen: ')
+                host_port = input(f'[{green}+{reset}] Port to listen on: ')
                 listener_handler()
                 listener_counter += 1
             if command == 'win':
