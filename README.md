@@ -21,7 +21,7 @@ mkdir ~/goblin ; cd ~/goblin ; wget https://raw.githubusercontent.com/h0ru/gobli
 ```
 pip install prettytable
 ```
-- **Compile your client Linux and Window with other name**
+- **Compile your Linux and Windows clients with a different name**
 ```
 GOOS=linux GOARCH=amd64 go build -o name lin.go
 GOOS=windows GOARCH=amd64 go build -o name.exe win.go
