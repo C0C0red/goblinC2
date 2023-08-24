@@ -28,20 +28,20 @@ GOOS=windows GOARCH=amd64 go build -o name.exe win.go
 ```
 - **Menu Commands**
 ```
-help or ?                   👉 Show Help Menu
-exit or x                   👉 Exits C2
-listener or lt              👉 Generate a New Listener
-lin                         👉 Generate a Linux Payload
-win                         👉 Generate a Windows Payload
-sessions -l                 👉 List Sessions
-sessions -i <id>            👉 Enter a New Session
+help or ?                   ~> Show Help Menu
+exit or x                   ~> Exits C2
+listener or lt              ~> Generate a New Listener
+lin                         ~> Generate a Linux Payload
+win                         ~> Generate a Windows Payload
+sessions -l                 ~> List Sessions
+sessions -i <id>            ~> Enter a New Session
 ```
 - **Sessions Commands**
 ```
-help or ?                   👉 Show Help Menu
-exit or x                   👉 Terminates the current session
-persist or pt               👉 Use a persistence technique
-background or bg            👉 Backgrounds the current session
+help or ?                   ~> Show Help Menu
+exit or x                   ~> Terminates the current session
+persist or pt               ~> Use a persistence technique
+background or bg            ~> Backgrounds the current session
 ```
 ---
 
