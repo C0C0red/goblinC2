@@ -13,7 +13,7 @@
 ---
 ## ▪️ Install
 ```
-mkdir ~/goblin ; cd ~/goblin ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/server/goblin.py . ; chmod +x ./goblin.py ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/client/lin.go . ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/client/win.go .
+mkdir ~/goblin ; cd ~/goblin ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/server/goblin.py . ; chmod +x ./goblin.py ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/client/lin.go . ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/client/win.go . ; wget https://raw.githubusercontent.com/h0ru/goblinC2/main/client/lin.py
 ```
 ---
 ## ▪️ Help
