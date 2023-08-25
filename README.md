@@ -6,6 +6,13 @@
     <img src="https://img.shields.io/badge/-Python3-3776AB?logo=Python&logoColor=white" width="85px">
 </div>
 
+---
+
+
+## ▪️ Check the video
+[**Demo Video**](https://youtu.be/ajL3QlP7ypA)
+
+---
 ## ▪️ You will need 
 - [**Python3**](https://www.python.org/downloads/)
 - [**Golang**](https://go.dev/dl/)
