@@ -43,5 +43,14 @@ exit or x                   ~> Terminates the current session
 persist or pt               ~> Use a persistence technique
 background or bg            ~> Backgrounds the current session
 ```
+- **Compilation Warning: GLIBC_2.34 Compatibility Issue**
+  - Try Compiling [lin.go](https://github.com/h0ru/goblinC2/blob/main/client/lin.go) in a Specific Environment: If you're facing compatibility problems due to GLIBC version differences, attempt to compile the lin.go source code in an environment that matches your target system's GLIBC version. This might help create a binary that's compatible with your desired environment.
+
+  - Alternatively, Use [lin.py](https://github.com/h0ru/goblinC2/blob/main/client/lin.py) as an Option: In case you're still encountering challenges with Go's compatibility, you can explore the alternative lin.py script. This Python script might offer a workaround for executing the desired functionality on systems with varying GLIBC versions.
+   - Remember to update the fields:
+```
+host_ip = 'INPUT_IP_HERE'
+host_port = INPUT_PORT_HERE
+```
 ---
 
